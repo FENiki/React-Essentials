@@ -1,0 +1,18 @@
+{
+    "sourceFile": ".eslintrc.cjs",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1714592974872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1714592974872,
+            "name": "Commit-0",
+            "content": "module.exports = {\n  root: true,\n  env: { browser: true, es2020: true },\n  extends: [\n    \"eslint:recommended\",\n    \"plugin:react/recommended\",\n    \"plugin:react/jsx-runtime\",\n    \"plugin:react-hooks/recommended\",\n  ],\n  ignorePatterns: [\"dist\", \".eslintrc.cjs\"],\n  parserOptions: { ecmaVersion: \"latest\", sourceType: \"module\" },\n  settings: { react: { version: \"18.2\" } },\n  plugins: [\"react-refresh\"],\n  rules: {\n    \"react/jsx-no-target-blank\": \"off\",\n    \"react-refresh/only-export-components\": [\n      \"warn\",\n      { allowConstantExport: true },\n      \"react/prop-types\",\n      \"off\",\n    ],\n  },\n};\n"
+        }
+    ]
+}

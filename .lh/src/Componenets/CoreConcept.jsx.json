@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/Componenets/CoreConcept.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1714726987068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714731206819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+import \"./CoreConcept.css\";\r\n export default function CoreConcept({ image, title, description }) {\r\n   return (\r\n     <li>\r\n       <img src={image} alt={title} />\r\n"
+                }
+            ],
+            "date": 1714726987068,
+            "name": "Commit-0",
+            "content": "export default function CoreConcept({ image, title, description }) {\r\n  return (\r\n    <li>\r\n      <img src={image} alt={title} />\r\n      <h3>{title}</h3>\r\n      <p>{description}</p>\r\n    </li>\r\n  );\r\n}\r\n"
+        }
+    ]
+}

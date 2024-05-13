@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/index.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1714593068960,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1714593068960,
+            "name": "Commit-0",
+            "content": "import ReactDOM from \"react-dom/client\";\nimport App from \"./App.jsx\";\nimport \"./index.css\";\n\nconst entryPoint = document.getElementById(\"root\");\nReactDOM.createRoot(entryPoint).render(<App />);\n"
+        }
+    ]
+}

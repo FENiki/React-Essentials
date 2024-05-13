@@ -1,0 +1,34 @@
+{
+    "sourceFile": "src/Componenets/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1714725694122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714725748335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,9 @@\n const reactDescriptions = [\"Fundamental\", \"Crucial\", \"Core\"];\r\n \r\n+function genRandomInt(max) {\r\n+  return Math.floor(Math.random() * (max + 1));\r\n+}\r\n function Header() {\r\n   const description = reactDescriptions[genRandomInt(2)];\r\n   return (\r\n     <header>\r\n"
+                },
+                {
+                    "date": 1714726088916,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,12 @@\n+import reactImg from \"../assets/images/react-core-concepts.png\";\r\n+\r\n const reactDescriptions = [\"Fundamental\", \"Crucial\", \"Core\"];\r\n \r\n function genRandomInt(max) {\r\n   return Math.floor(Math.random() * (max + 1));\r\n }\r\n-function Header() {\r\n+export default function Header() {\r\n   const description = reactDescriptions[genRandomInt(2)];\r\n   return (\r\n     <header>\r\n       <img src={reactImg} alt=\"Stylized atom\" />\r\n"
+                },
+                {
+                    "date": 1714730408047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import reactImg from \"../assets/images/react-core-concepts.png\";\r\n-\r\n+import \"/Header.css\";\r\n const reactDescriptions = [\"Fundamental\", \"Crucial\", \"Core\"];\r\n \r\n function genRandomInt(max) {\r\n   return Math.floor(Math.random() * (max + 1));\r\n"
+                },
+                {
+                    "date": 1714730710640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n import reactImg from \"../assets/images/react-core-concepts.png\";\r\n-import \"/Header.css\";\r\n+import \"./Header.css\";\r\n const reactDescriptions = [\"Fundamental\", \"Crucial\", \"Core\"];\r\n \r\n function genRandomInt(max) {\r\n   return Math.floor(Math.random() * (max + 1));\r\n"
+                }
+            ],
+            "date": 1714725694122,
+            "name": "Commit-0",
+            "content": "const reactDescriptions = [\"Fundamental\", \"Crucial\", \"Core\"];\r\n\r\nfunction Header() {\r\n  const description = reactDescriptions[genRandomInt(2)];\r\n  return (\r\n    <header>\r\n      <img src={reactImg} alt=\"Stylized atom\" />\r\n      <h1>React Essentials</h1>\r\n      <p>\r\n        {description} React concepts you will need for almost any app you are\r\n        going to build!\r\n      </p>\r\n    </header>\r\n  );\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/data.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1714593072010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1714593381482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-import componentsImg from \"./assets/components.png\";\r\n-import propsImg from \"./assets/config.png\";\r\n-import jsxImg from \"./assets/jsx-ui.png\";\r\n-import stateImg from \"./assets/state-mgmt.png\";\r\n+import componentsImg from \"assets/images/components.png\";\r\n+import propsImg from \"assets/images/config.png\";\r\n+import jsxImg from \"assets/images/jsx-ui.png\";\r\n+import stateImg from \"assets/images/state-mgmt.png\";\r\n \r\n export const CORE_CONCEPTS = [\r\n   {\r\n     image: componentsImg,\r\n"
+                },
+                {
+                    "date": 1714593398706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n-import componentsImg from \"assets/images/components.png\";\r\n-import propsImg from \"assets/images/config.png\";\r\n-import jsxImg from \"assets/images/jsx-ui.png\";\r\n-import stateImg from \"assets/images/state-mgmt.png\";\r\n+import componentsImg from \"./assets/images/components.png\";\r\n+import propsImg from \"./assets/images/config.png\";\r\n+import jsxImg from \"./assets/images/jsx-ui.png\";\r\n+import stateImg from \"./assets/images/state-mgmt.png\";\r\n \r\n export const CORE_CONCEPTS = [\r\n   {\r\n     image: componentsImg,\r\n"
+                }
+            ],
+            "date": 1714593072010,
+            "name": "Commit-0",
+            "content": "import componentsImg from \"./assets/components.png\";\r\nimport propsImg from \"./assets/config.png\";\r\nimport jsxImg from \"./assets/jsx-ui.png\";\r\nimport stateImg from \"./assets/state-mgmt.png\";\r\n\r\nexport const CORE_CONCEPTS = [\r\n  {\r\n    image: componentsImg,\r\n    title: \"Components\",\r\n    description:\r\n      \"The core UI building block - compose the user interface by combining multiple components.\",\r\n  },\r\n  {\r\n    image: jsxImg,\r\n    title: \"JSX\",\r\n    description:\r\n      \"Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.\",\r\n  },\r\n  {\r\n    image: propsImg,\r\n    title: \"Props\",\r\n    description:\r\n      \"Make components configurable (and therefore reusable) by passing input data to them.\",\r\n  },\r\n  {\r\n    image: stateImg,\r\n    title: \"State\",\r\n    description:\r\n      \"React-managed data which, when changed, causes the component to re-render & the UI to update.\",\r\n  },\r\n];\r\n"
+        }
+    ]
+}
