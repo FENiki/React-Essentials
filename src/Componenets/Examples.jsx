@@ -31,7 +31,7 @@ export default function Examples() {
   return (
     <Section title="Examples" id="examples">
       <Tabs
-      ButtonContainer="menu"
+      // ButtonContainer="menu"  //wrapper element is sent as a coomponent identifier
         buttons={
           <>
             <TabButton
